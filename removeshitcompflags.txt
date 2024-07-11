@@ -1,0 +1,12 @@
+g++ -m32 -static -o removesheet removesheet.cpp -lole32 -loleaut32 -lShell32 -mwindows -lstdc++fs
+
+or
+
+g++
+-lole32 
+-loleaut32 
+-lShell32
+-lstdc++fs 
+-mwindows 
+-static
+-m32
